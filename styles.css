@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
     display: flex;
     flex-direction: column;
@@ -6,9 +8,11 @@ body {
 
 .top {
     display: flex;
+    flex-direction: column;
     flex-basis: 300px;
     flex-grow: 1;
-    font-family: Roboto, Tahoma, sans-serif;
+    font-family: 'Roboto';
+    padding-inline: 64px;
 }
 
 .top,
@@ -20,19 +24,26 @@ body {
     display: flex;
     flex-direction: row;
     height: 72px;
-    flex-grow: 1;
+    flex-grow: 0.5;
     justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     padding: 10px;
-    color: #F9FAF8;
     font-size: 24px;
+}
+
+.logo,
+.heroText {
+    color: #F9FAF8;
+    font-weight: 900;
 }
 
 .headerLinks {
     list-style-type: none;
     display: flex;
+    flex-shrink: 1;
     font-size: 18px;
     padding-inline-start: 0;
     padding: 10px;
@@ -41,7 +52,16 @@ body {
 
 .headerLinks a {
     text-decoration: none;
-    color: ivory;
+    color: #E5E7EB;
+}
+
+.subheader {
+    flex: display;
+    flex-grow: 2;
+}
+
+.heroText {
+    font-size: 48px;
 }
 
 .middle {
