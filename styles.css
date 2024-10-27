@@ -4,15 +4,44 @@ body {
     justify-content: center;
 }
 
+.top {
+    display: flex;
+    flex-basis: 300px;
+    flex-grow: 1;
+    font-family: Roboto, Tahoma, sans-serif;
+}
+
 .top,
 .footer {
     background-color: #1F2937;
 }
 
-.top {
+.header {
     display: flex;
-    flex-basis: 300px;
+    flex-direction: row;
+    height: 72px;
     flex-grow: 1;
+    justify-content: space-between;
+}
+
+.logo {
+    padding: 10px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.headerLinks {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    padding-inline-start: 0;
+    padding: 10px;
+    gap: 10px;
+}
+
+.headerLinks a {
+    text-decoration: none;
+    color: ivory;
 }
 
 .middle {
