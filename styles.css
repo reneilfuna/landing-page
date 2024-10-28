@@ -99,6 +99,7 @@ button {
 
 .middle {
     display: flex;
+    flex-direction: column;
     flex-basis: 900px;
     flex-grow: 2;
 }
