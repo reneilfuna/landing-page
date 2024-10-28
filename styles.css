@@ -35,7 +35,8 @@ body {
 }
 
 .logo,
-.heroText {
+.heroText 
+{
     color: #F9FAF8;
     font-weight: 900;
 }
@@ -103,5 +104,10 @@ button {
 }
 
 .footer {
+    display: flex;
     height: 72px;
+    font-family: 'Roboto';
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
