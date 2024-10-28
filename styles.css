@@ -108,6 +108,16 @@ button {
     flex-grow: 2;
 }
 
+.display {
+    display: flex;
+    flex-direction: column;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+}
+
 
 
 .footer {
