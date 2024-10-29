@@ -14,7 +14,7 @@ body {
 }
 
 .top,
-.middle {
+.display {
     padding-inline: 96px;
 }
 
@@ -133,7 +133,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
 }
 
 .card {
@@ -157,6 +157,14 @@ img {
 
 .cardText {
     text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 450px;
+    flex-grow: 1;
+    background-color: #E5E7EB;
 }
 
 
