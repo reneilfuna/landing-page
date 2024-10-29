@@ -113,11 +113,22 @@ button {
     flex-direction: column;
 }
 
+.displayTitle {
+    text-align: center;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    align-items: center;
+}
 
 
 .footer {
