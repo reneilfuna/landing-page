@@ -14,7 +14,8 @@ body {
 }
 
 .top,
-.display {
+.display,
+.quotation {
     padding-inline: 96px;
 }
 
@@ -159,12 +160,27 @@ img {
     text-align: center;
 }
 
-.quote {
+.quotation {
     display: flex;
     flex-direction: column;
     flex-basis: 450px;
     flex-grow: 1;
     background-color: #E5E7EB;
+    justify-content: center;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quoter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 
