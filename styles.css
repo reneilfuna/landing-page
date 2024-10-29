@@ -168,8 +168,7 @@ img {
 #quotation {
     display: flex;
     flex-direction: column;
-    flex-basis: 400px;
-    flex-grow: 1;
+    flex: 400px 1 0;
     background-color: #E5E7EB;
     justify-content: center;
 }
@@ -190,6 +189,26 @@ img {
 
 #ad {
     display: flex;
+    flex: 150px 1 0;
+    padding-block: 5%;
+}
+
+#modal {
+    display: flex;
+    margin-block: 16px;
+    flex: 1 1 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+}
+
+#modal button{
+    border-color: #E5E7EB;
+}
+
+#adText {
+    color: #F9FAF8;
 }
 
 #footer {
