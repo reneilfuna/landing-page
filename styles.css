@@ -171,6 +171,7 @@ img {
     flex: 400px 1 0;
     background-color: #E5E7EB;
     justify-content: center;
+    gap: 8px;
 }
 
 #quote {
