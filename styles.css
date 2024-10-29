@@ -17,7 +17,7 @@ body {
 #top,
 #display,
 #quotation {
-    padding-inline: 96px;
+    padding-inline: 20%;
 }
 
 #top,
@@ -185,6 +185,8 @@ img {
 }
 
 #ad {
+    display: flex;
+    
     color: #3882F6;
     padding: 32px;
 }
