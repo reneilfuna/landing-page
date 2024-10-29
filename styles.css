@@ -139,6 +139,10 @@ button {
     align-items: center;
 }
 
+.cardText {
+    text-align: center;
+}
+
 
 .footer {
     display: flex;
