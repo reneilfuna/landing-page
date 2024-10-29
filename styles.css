@@ -140,6 +140,13 @@ button {
     align-items: center;
 }
 
+img {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}
+
 .cardText {
     text-align: center;
 }
