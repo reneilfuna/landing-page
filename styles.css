@@ -211,6 +211,11 @@ img {
     color: #F9FAF8;
 }
 
+#bold {
+    font-weight: 600;
+    font-size: 20px;
+}
+
 #footer {
     display: flex;
     height: 100px;
