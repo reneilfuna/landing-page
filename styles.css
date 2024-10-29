@@ -130,7 +130,7 @@ button {
 .gallery {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .card {
@@ -144,9 +144,9 @@ button {
 
 img {
     display: flex;
-    width: 200px;
-    height: 200px;
-    object-fit: contain;
+    width: 150px;
+    height: 150px;
+    flex-grow: 1;
     flex-shrink: 1;
 }
 
